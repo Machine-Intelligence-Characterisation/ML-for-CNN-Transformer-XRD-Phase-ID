@@ -21,7 +21,7 @@ This is the **fastest way to use the repo**.
 module load cuda   # or appropriate CUDA module
 module load anaconda
 conda activate cpicann  # or your env
-cd /home/<user>/.../Ankita_CPICANN_Phase
+cd /home/<user>/.../ML-for-CPICANN-phase-analysis
 ```
 
 2. **Run the quick validation script** (uses pretrained models in `trained_models/`):
