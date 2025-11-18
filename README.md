@@ -1,6 +1,6 @@
-## CPICANN Phase Classification – Training & Validation (M3-Focused)
+## CPICANN Phase Classification – Training & Validation
 
-This repository contains code to **train and validate deep learning models for X-ray diffraction (XRD)–based crystal structure classification**, with a workflow optimized for the **Monash M3 cluster**.
+This repository contains code to **train and validate deep learning models for X-ray diffraction (XRD)–based crystal structure classification**, with a workflow optimized for the **Monash M3 cluster**. The project replicates the CPICANN-based workflow reported in *IUCrJ* (2024) by **Gandhi et al.**, “Classifying crystal structures and phases from X-ray diffraction patterns using convergent pathways in neural networks” ([link](https://journals.iucr.org/m/issues/2024/04/00/fc5077/)).
 
 You can:
 - **Quickly validate pretrained models** (most common workflow, via `quick_test.py`)
@@ -21,7 +21,7 @@ This is the **fastest way to use the repo**.
 module load cuda   # or appropriate CUDA module
 module load anaconda
 conda activate cpicann  # or your env
-cd /home/<user>/.../ML-for-CPICANN-phase-analysis
+cd /home/<user>/.../Ankita_CPICANN_Phase
 ```
 
 2. **Run the quick validation script** (uses pretrained models in `trained_models/`):
@@ -135,7 +135,7 @@ On **M3**, also ensure you load the usual modules for your account (e.g. `module
 
 ### 4.1 D1_full Dataset (Paper Setup)
 
-The main paper results use the **D1_full** dataset (not included in this repository).  
+The referenced IUCrJ paper used the **D1_full** dataset (not included in this repository).  
 For the exact directory structure and annotation format expected by the training scripts, see:
 - `TRAINING_GUIDE.md`
 - `TRAINING_D1_FULL_GUIDE.md`
