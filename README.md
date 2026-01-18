@@ -1,4 +1,4 @@
-## CPICANN Phase Classification – Training & Validation
+## XRD Phase Classification using CNN with transformer – Training & Validation
 
 This repository contains code to **train and validate deep learning models for X-ray diffraction (XRD)–based crystal structure classification**, with a workflow optimized for the **Monash M3 cluster**. The project replicates the CPICANN-based workflow reported in *IUCrJ* (2024) by **Gandhi et al.**, “Classifying crystal structures and phases from X-ray diffraction patterns using convergent pathways in neural networks” ([link](https://journals.iucr.org/m/issues/2024/04/00/fc5077/)).
 
